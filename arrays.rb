@@ -13,4 +13,12 @@ bool_array.shift
 ''' shift will remove the first true from the array '''
 
 ''' indexing always starts at 0 for example 1 in int_array is index 0 you can also start from the end with -1,
- -1 in int_array is 4, -2 would be 3. You can use indexing to cycle through arrays and other data structures '''  
+ -1 in int_array is 4, -2 would be 3. You can use indexing to cycle through arrays and other data structures '''
+
+ int_array.count
+
+ int_array.count(2)
+
+ ''' the count method returns the number of elements but if given an arguement counts the elements that equal that arguement. The first count would return 5 because there are 5 elements,
+ the second count would return 1 because there is only 1 two in the array. '''
+ 
